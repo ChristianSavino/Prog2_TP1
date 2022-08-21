@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP N°1</string>
+    <string name="Suma">Suma</string>
+    <string name="btnEjercicio1">Ejercicio 1</string>
+    <string name="btnEjercicio2">Ejercicio 2</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnVolver">Volver</string>
+</resources>
