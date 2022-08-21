@@ -20,4 +20,10 @@ public class MainActivity extends AppCompatActivity {
         Intent ejercicio = new Intent(this, Suma.class);
         startActivity(ejercicio);
     }
+
+    //Método de boton Ejercicio 2
+    public void Ejercicio2(View view){
+        Intent ejercicio2 = new Intent(this, Calculator.class);
+        startActivity(ejercicio2);
+    }
 }

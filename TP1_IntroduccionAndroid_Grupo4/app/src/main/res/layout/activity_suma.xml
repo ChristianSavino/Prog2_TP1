@@ -20,18 +20,14 @@
 
     <EditText
         android:id="@+id/txtPrimerNumero"
-        android:layout_width="250dp"
-        android:layout_height="48dp"
-        android:ems="10"
         android:hint="Primer valor"
-        android:inputType="number"
-        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtSegundoNumero"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.962"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851" />
+        app:layout_constraintVertical_bias="0.851"
+        style="@style/Campos" />
 
     <TextView
         android:id="@+id/textView4"
@@ -85,20 +81,15 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389" />
+        app:layout_constraintVertical_bias="0.38" />
 
     <TextView
         android:id="@+id/txtResultado"
         android:layout_width="77dp"
         android:layout_height="27dp"
-        android:layout_marginTop="60dp"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnVolver"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.661"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="336dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -112,6 +103,6 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
-        app:layout_constraintVertical_bias="0.288" />
+        app:layout_constraintVertical_bias="0.13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

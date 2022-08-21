@@ -19,16 +19,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnEjercicio2"
+        android:id="@+id/btnEjercicio"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="255dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="493dp"
+        android:layout_marginTop="20dp"
+        android:onClick="Ejercicio2"
         android:text="@string/btnEjercicio2"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtIntegrantes"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnEjercicio1"
-        app:layout_constraintVertical_bias="0.473" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/txtIntegrantes"
