@@ -88,6 +88,19 @@ public class Calculator extends AppCompatActivity {
                 case 1:
                     result = Sumar(num1,num2);
                     break;
+                case 2:
+                    result = Restar(num1,num2);
+                    break;
+                case 3:
+                    result = Multiplicar(num1,num2);
+                    break;
+                case 4:
+                    result = Dividir(num1,num2);
+
+                default:
+                    //aca mostrar alguna especie de error/ excepcion
+
+
             }
 
             operationTextView.setText(result);
@@ -97,7 +110,8 @@ public class Calculator extends AppCompatActivity {
         }
     }
 
-    String Sumar(int n1, int n2) {
-        return Integer.toString(n1 + n2);
-    }
+    String Sumar(int n1, int n2) {return Integer.toString(n1 + n2);}
+    String Restar(int n1, int n2) {return Integer.toString(n1 - n2);}
+    String Multiplicar(int n1,int n2){return Integer.toString(n1 * n2);}
+    String Dividir(int n1,int n2){return Integer.toString(n1 / n2);}
 }
