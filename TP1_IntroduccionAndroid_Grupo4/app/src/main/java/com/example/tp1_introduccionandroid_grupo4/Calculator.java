@@ -33,15 +33,15 @@ public class Calculator extends AppCompatActivity {
     }
 
     public void SetSubtract(View view) {
-
+        PreCalculate(view, operationTextView.getText().toString(),2);
     }
 
     public void SetMultiply(View view) {
-
+        PreCalculate(view, operationTextView.getText().toString(),3);
     }
 
     public void SetDivide(View view) {
-
+        PreCalculate(view, operationTextView.getText().toString(),4);
     }
 
     public void One(View view) {
@@ -99,8 +99,6 @@ public class Calculator extends AppCompatActivity {
 
                 default:
                     //aca mostrar alguna especie de error/ excepcion
-
-
             }
 
             operationTextView.setText(result);
