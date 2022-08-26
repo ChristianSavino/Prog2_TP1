@@ -1,6 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Calculator">
+
+<TableRow>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_span="4"
+        android:gravity="right"
+        android:text="0"
+        android:textSize="72sp" />
+</TableRow>
+
+<TableRow
+android:layout_weight="1">
+
+    <Button
+        android:id="@+id/btnSiete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="7"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnOcho"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="8"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnNueve"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="9"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="+"
+        android:textSize="32sp" />
+</TableRow>
+<TableRow
+android:layout_weight="1">
+
+    <Button
+        android:id="@+id/btnCuatro"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="4"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnCinco"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="5"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnSeis"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="6"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="-"
+        android:textSize="32sp" />
+</TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnUno"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnDos"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnTres"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnMultiplicar"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="*"
+            android:textSize="32sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnCero"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnIgual"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="="
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="/"
+            android:textSize="32sp" />
+    </TableRow>
+
+    </TableLayout>
