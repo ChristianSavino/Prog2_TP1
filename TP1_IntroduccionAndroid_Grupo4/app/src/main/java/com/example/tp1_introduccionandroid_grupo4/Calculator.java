@@ -303,4 +303,10 @@ public class Calculator extends AppCompatActivity {
 
     }
 
+    void AddNumber(String n) {
+        if(pantalla.getText() == "0")
+            pantalla.setText(n);
+        else
+            pantalla.setText( pantalla.getText() + n);
+    }
 }
