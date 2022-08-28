@@ -221,7 +221,7 @@ public class Calculator extends AppCompatActivity {
                 if (pantalla.getText().length() != 0) {
                     num1 = Integer.parseInt(pantalla.getText() + "");
                     Sumar = true;
-                    pantalla.setText(num1 + " + ");
+                    pantalla.setText(num1 +"+");
                 }
             }
         });
@@ -232,7 +232,7 @@ public class Calculator extends AppCompatActivity {
                 if (pantalla.getText().length() != 0) {
                     num1 = Integer.parseInt(pantalla.getText() + "");
                     Restar = true;
-                    pantalla.setText(null);
+                    pantalla.setText(num1 +"-");
                 }
             }
         });
@@ -243,7 +243,7 @@ public class Calculator extends AppCompatActivity {
                 if (pantalla.getText().length() != 0) {
                     num1 = Integer.parseInt(pantalla.getText() + "");
                     Multiplicar = true;
-                    pantalla.setText(null);
+                    pantalla.setText(num1 +"x");
                 }
             }
         });
@@ -254,7 +254,7 @@ public class Calculator extends AppCompatActivity {
                 if (pantalla.getText().length() != 0) {
                     num1 = Integer.parseInt(pantalla.getText() + "");
                     Dividir = true;
-                    pantalla.setText(null);
+                    pantalla.setText(num1 +"/");
                 }
             }
         });
