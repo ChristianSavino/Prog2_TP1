@@ -20,14 +20,14 @@
 
     <EditText
         android:id="@+id/txtPrimerNumero"
+        style="@style/Campos"
         android:hint="Primer valor"
         app:layout_constraintBottom_toTopOf="@+id/txtSegundoNumero"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.962"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851"
-        style="@style/Campos" />
+        app:layout_constraintVertical_bias="0.851" />
 
     <TextView
         android:id="@+id/textView4"
@@ -88,8 +88,11 @@
         android:layout_width="77dp"
         android:layout_height="27dp"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="336dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView6"
@@ -98,11 +101,10 @@
         android:layout_marginEnd="72dp"
         android:text="Resultado:"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnVolver"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/txtResultado"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

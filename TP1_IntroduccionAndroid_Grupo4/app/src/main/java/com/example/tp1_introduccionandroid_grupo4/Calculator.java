@@ -221,7 +221,7 @@ public class Calculator extends AppCompatActivity {
                 if (pantalla.getText().length() != 0) {
                     num1 = Integer.parseInt(pantalla.getText() + "");
                     Sumar = true;
-                    pantalla.setText(null);
+                    pantalla.setText(num1 + " + ");
                 }
             }
         });
